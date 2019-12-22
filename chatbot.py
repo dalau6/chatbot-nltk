@@ -2,6 +2,7 @@ import nltk
 import numpy as np
 import random
 import string # to process standard python strings
+from sklearn.metrics.pairwise import cosine_similarity
 
 f=open('chatbot.txt','r',errors = 'ignore')
 
